@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int x, y, area;
+	cout << "enter x \a"<<endl;
+	cin >> x;
+	cout << "enter y \a" << endl;
+	cin >> y;
+	area = x*y;
+	cout << "area = \a" << area << endl;
+	system("pause");
+}
